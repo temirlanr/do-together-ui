@@ -27,11 +27,14 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
 /build/
 /coverage/
+pubspec.lock
 
 # Symbolication related
 app.*.symbols
@@ -43,3 +46,36 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android build artifacts
+/android/.gradle/
+/android/local.properties
+/android/app/google-services.json
+
+# iOS build artifacts
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# Web build artifacts
+/web/.dart_tool/
+
+# Windows build artifacts
+/windows/flutter/dart_sdk/
+/windows/flutter/ephemeral/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+
+# Environment / secrets
+.env
+.env.*
+*.jks
+*.keystore
