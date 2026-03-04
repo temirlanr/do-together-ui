@@ -45,7 +45,7 @@ flutter run
 Or with a custom API URL:
 
 ```bash
-flutter run --dart-define=API_BASE_URL=http://192.168.1.42:5000
+flutter run --dart-define=API_BASE_URL=http://192.168.x.xx:5000
 ```
 
 ### 4. Run tests
