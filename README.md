@@ -104,7 +104,3 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed architecture document desc
 | `API_BASE_URL` | `http://10.0.2.2:5000` | Backend API base URL |
 
 Pass via `--dart-define=API_BASE_URL=...` at build/run time.
-
-## License
-
-Private — all rights reserved.
